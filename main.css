@@ -7,9 +7,17 @@ body, html {
 }
 
 /* Styling the container */
+.dynalight-regular {
+  font-family: "Dynalight", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #container {
+    background-image: url(FONDO.svg);
     background-color: rgb(170,185,216);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -60,7 +68,7 @@ body, html {
 
 #texto h3 {
     margin: 30px 0;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 300;
 }
 
